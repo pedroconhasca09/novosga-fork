@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96c95c9647709bfca3417d5c8251a133",
+    "content-hash": "5d072e0dd3eb134d8615f2a33f4eb95d",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -2064,13 +2064,13 @@
             "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/novosga/monitor-bundle.git",
-                "reference": "45f505468f1ffc1b6e055dc165c9d9f50a00957c"
+                "url": "https://github.com/pedroconhasca09/monitor-bundle-sga.git",
+                "reference": "3fd9875b9fd8682d6b9429395f57b551cb16bdbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/novosga/monitor-bundle/zipball/45f505468f1ffc1b6e055dc165c9d9f50a00957c",
-                "reference": "45f505468f1ffc1b6e055dc165c9d9f50a00957c",
+                "url": "https://api.github.com/repos/pedroconhasca09/monitor-bundle-sga/zipball/3fd9875b9fd8682d6b9429395f57b551cb16bdbc",
+                "reference": "3fd9875b9fd8682d6b9429395f57b551cb16bdbc",
                 "shasum": ""
             },
             "require": {
@@ -2088,6 +2088,7 @@
                 "slevomat/coding-standard": "^8.28",
                 "squizlabs/php_codesniffer": "^4.0"
             },
+            "default-branch": true,
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2099,15 +2100,18 @@
                     "Novosga\\MonitorBundle\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Novosga\\MonitorBundle\\Tests\\": "tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
             "support": {
-                "issues": "https://github.com/novosga/monitor-bundle/issues",
-                "source": "https://github.com/novosga/monitor-bundle/tree/v2.4"
+                "source": "https://github.com/pedroconhasca09/monitor-bundle-sga/tree/v2.4"
             },
-            "time": "2026-08-21T14:07:57+00:00"
+            "time": "2026-09-23T17:19:33+00:00"
         },
         {
             "name": "novosga/panel-bundle",

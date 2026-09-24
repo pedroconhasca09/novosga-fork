@@ -15,6 +15,12 @@
         }
     ],
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pedroconhasca09/monitor-bundle-sga.git"
+        }
+    ],
     "require": {
         "php": ">=8.2",
         "ext-ctype": "*",
